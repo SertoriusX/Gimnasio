@@ -1,0 +1,17 @@
+{% extends "core/baseP.html" %}
+{%load static%}
+{% block content %}
+
+
+<div class="container" style="margin-top: 200px;margin-bottom:700px;">
+    <div class="row">
+      <div class="col">  <img src="{{ gym_d.image }}" alt="First One"></div>
+      <div class="col">    
+        <h1>{{ gym_d.name }}</h1>
+  
+        <p>{{ gym_d.description_second }}</p>
+    </div>
+   
+  </div>
+</div>
+{% endblock %}
